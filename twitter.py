@@ -16,4 +16,4 @@ search = t.search(q='#MECATE',
 tweets = search['statuses']
 
 for tweet in tweets:
-  print tweet['id_str'], '\n', tweet['text'], '\n\n\n'
+  print tweet['user']['screen_name'], '\n', tweet['text'], '\n'
