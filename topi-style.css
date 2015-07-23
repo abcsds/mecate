@@ -1,12 +1,14 @@
 .container h1 {
 display:none;
 }
+
 #agenda:before {
   content: "AGENDA";
   text-align: center;
   display: block;
   font-size: 2em;
   font-weight: bold;
+  color:black;
 }
 #map {
    height:500px;
@@ -47,7 +49,20 @@ header.navbar {
 }
 * {
 text-shadow: none;
+color: #333;
 }
 #speakers .container h1 {
 display:block;
+}
+.speaker {
+color:#333;
+}
+section.speakers div div div a h3 {
+color:#333;
+}
+.navbar-nav li a {
+color:#333;
+}
+#speakers h3, #speakers h4 {
+  color:#333;
 }
