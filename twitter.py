@@ -18,9 +18,11 @@ tweets = search['statuses']
 text = ""
 for tweet in tweets:
   # print tweet['user']['screen_name'], '\n', tweet['text'], '\n'
-  text +=  tweet['text']
+  text +=  " " + tweet['text']
 
-create(text,
+text = text.encode('ascii', 'ignore')
+
+pywordcloud.create(text,
     outfile="output.html",
     uppercase=False,
     showfreq=True,
