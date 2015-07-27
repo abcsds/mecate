@@ -1,0 +1,38 @@
+.md-trigger img {
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/s….3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
+
+.waving-mecateros {
+ overflow:hidden;
+  width: 200px;
+  height: 200px;
+}
+.waving-mecateros a {
+   height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.waving-mecateros a img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    position: absolute;
+  top: -1%;
+  left: -1%;
+  }
+
+#da-thumbs li a div span {
+  text-transform: none;
+}
+.md-modal {
+  text-align: justify;
+  margin-bottom:2em;
+}
+.modal-waving-content {
+  max-height:400px;
+}
